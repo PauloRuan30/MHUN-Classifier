@@ -11,7 +11,7 @@ This repository contains a **Monster Hunter World (MHW) icon classifier**. The p
 
 - **High-Level Flow:**  
   1. **Organize icons** into class folders using the provided JSON data.  
-  2. **Train** a Transfer Learning model (MobileNetV2) in Python/TensorFlow.  
+  2. **Train** a Transfer Learning model (MobileNetV2) in Python.  
   3. **Go REST API** that loads the model and serves predictions.  
   4. **Streamlit frontend** that consumes the Go API to display monster details.
 
